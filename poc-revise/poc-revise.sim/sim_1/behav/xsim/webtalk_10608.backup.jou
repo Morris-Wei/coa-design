@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Mon Mar  9 17:28:44 2020
-# Process ID: 14604
+# Start of session at: Mon Mar  9 15:11:02 2020
+# Process ID: 10608
 # Current directory: E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim/xsim.dir/printer_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim/xsim.dir/testPrinterPOC_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim/xsim.dir/printer_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+source E:/GIT/coa-design/poc-revise/poc-revise.sim/sim_1/behav/xsim/xsim.dir/testPrinterPOC_behav/webtalk/xsim_webtalk.tcl -notrace

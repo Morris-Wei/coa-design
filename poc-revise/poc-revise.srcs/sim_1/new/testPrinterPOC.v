@@ -40,24 +40,28 @@ module testPrinterPOC();
     initial begin
             clk<=0;
             #20
-            rw<=1;addr<=1;din<=8'b01010101;
+            rw<=0;addr<=0;
+            #20
+            if(dout[0]==1)begin//中断模式
             
-            #65
-            rw<=1;addr<=1;din<=8'b01110001;
+                if(irq==0)begin
+                    #20
+                    rw<=1;addr<=1;din<=8'b01010101;
+                    
+                    #65
+                    rw<=1;addr<=1;din<=8'b01110001;
+                    
+                    #65
+                    rw<=1;addr<=1;din<=8'b11110001;
+                end
+            end
+            if(dout[0]==0)begin//查询模式
             
-            #65
-            rw<=1;addr<=1;din<=8'b11110001;
-            #65
-            
-            rw<=1;addr<=1;din<=8'b01111001;
+                if(dout[7]==1)begin
+                    rw<=1;addr<=1;din<=8'b01111001;
+                end
 
-
-//            #20
-//            rw<=0;addr<=1;
-            
-//            #20
-//            rw<=0;addr<=0;
-    
+            end
             
         end
         

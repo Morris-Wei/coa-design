@@ -29,7 +29,7 @@ module poc(
     output [7:0] dout,pd;
     output [7:0] br,sr;
     
-    reg [7:0] sr=8'b10000001;
+    reg [7:0] sr=8'b10000000;
     reg [7:0] br,pd,dout;
     reg irq=1,tr=0;
     
