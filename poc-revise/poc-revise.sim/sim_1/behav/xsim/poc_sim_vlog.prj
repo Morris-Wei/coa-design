@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../poc-revise.srcs/sources_1/new/poc.v" \
+"../../../../poc-revise.srcs/sim_1/new/poc_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/poc_sim_behav/xsimk.exe -simmode gui -wdb poc_sim_behav.wdb -simrunnum 0 -socket 54395
+Design successfully loaded
+Design Loading Memory Usage: 8600 KB (Peak: 8600 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 9156 KB (Peak: 9156 KB)
+Simulation CPU Usage: 78 ms

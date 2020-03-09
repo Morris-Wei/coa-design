@@ -1,0 +1,1 @@
+-wto "5b0090bfb3c443c0a98d055148058aa2" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "testPrinterPOC_behav" "xil_defaultlib.testPrinterPOC" "xil_defaultlib.glbl" -log "elaborate.log" 
