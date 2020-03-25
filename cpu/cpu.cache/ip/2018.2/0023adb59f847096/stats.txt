@@ -1,0 +1,4 @@
+NumberHits:2
+Timestamp: Mon Mar 23 10:12:58 UTC 2020
+VLNV: xilinx.com:ip:dist_mem_gen:8.0
+SynthRuntime: 78

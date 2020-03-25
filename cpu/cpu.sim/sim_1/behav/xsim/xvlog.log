@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/ROM1/sim/ROM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/sim/RAM1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/BR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/Control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/MAR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/MBR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MBR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/MR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GIT/coa-design/cpu/cpu.srcs/sim_1/new/MRSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MRSim

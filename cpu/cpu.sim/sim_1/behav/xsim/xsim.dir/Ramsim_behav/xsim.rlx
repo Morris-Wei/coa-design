@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1562669353019566405  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 08998f6aeff24359badc9e1421931ee7 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Ramsim_behav xil_defaultlib.Ramsim xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "E:\\vivado\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Ramsim_behav/xsimk.exe\"   \"xsim.dir/Ramsim_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Ramsim_behav/obj/xsim_1.win64.obj\" \"E:\\vivado\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"E:\\vivado\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

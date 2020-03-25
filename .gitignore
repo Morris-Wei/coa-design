@@ -6,7 +6,8 @@ bin-release/
 
 # Other files and folders
 .settings/
-
+./poc-revise.cache
+./poc-revise.hw
 # Executables
 *.swf
 *.air
