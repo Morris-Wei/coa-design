@@ -32,26 +32,37 @@ module poc_sim(
     
     initial begin
         clk<=0;
-        #20
-        rw<=1;addr<=1;din<=8'b01010101;
-        #20
-        rdy<=1;
+//        #20
+//        if(irq==0)
+//            rw<=1;addr<=1;din<=8'b01010101;
+//        #20
+//        rdy<=1;
         
-        #20
-        rw<=1;addr<=1;din<=8'b01110001;
-        #20
-        rdy<=1;
+//        #20
+//        if(irq==0)
+//            rw<=1;addr<=1;din<=8'b01110001;
         
-        #20
-        rw<=0;addr<=1;
+//        #20
+//        rdy<=1;
         
-        #20
-        rw<=0;addr<=0;
-
+//        #20
+//        rw<=0;addr<=1;
+        
+//        #20
+//        rw<=0;addr<=0;
+        
         
     end
     
     
     always #10
         clk=~clk;//period = 2ps
+    always@(posedge(clk))begin
+        if(irq==0)
+            rw<=1;addr<=1;din<=8'b01010101;
+            #20
+            rdy<=1;
+            #20            
+            rw<=0;addr<=1;
+    end      
 endmodule

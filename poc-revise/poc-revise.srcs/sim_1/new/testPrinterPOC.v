@@ -42,7 +42,7 @@ module testPrinterPOC();
             #20
             rw<=0;addr<=0;
             #20
-            if(dout[0]==1)begin//�ж�ģʽ
+            if(dout[0]==1)begin//ÖÐ¶ÏÄ£Ê½
             
                 if(irq==0)begin
                     #20
@@ -55,7 +55,7 @@ module testPrinterPOC();
                     rw<=1;addr<=1;din<=8'b11110001;
                 end
             end
-            if(dout[0]==0)begin//��ѯģʽ
+            if(dout[0]==0)begin//²éÑ¯Ä£Ê½
             
                 if(dout[7]==1)begin
                     rw<=1;addr<=1;din<=8'b01111001;

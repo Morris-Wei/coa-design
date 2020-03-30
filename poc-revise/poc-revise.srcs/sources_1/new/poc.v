@@ -29,7 +29,7 @@ module poc(
     output [7:0] dout,pd;
     output [7:0] br,sr;
     
-    reg [7:0] sr=8'b10000000;
+    reg [7:0] sr=8'b10000001;
     reg [7:0] br,pd,dout;
     reg irq=1,tr=0;
     
@@ -52,6 +52,9 @@ module poc(
     
     always@(posedge(clk))begin
         if(sr[7]==1)begin
+            if(sr[0]==1)
+                irq<=0;
+
             if(rw==1 && addr==1)begin//给写入poc的br写入数据
                 irq<=1;
                 tr<=0;
@@ -63,21 +66,18 @@ module poc(
                 sr<=din;
             end
             if(rw==0 && addr==1)begin
-                if(sr[0]==1)
-                    irq<=0;
                 tr<=0;
                 dout<=br;
             end
             
             if(rw==0 && addr==0)begin
-                if(sr[0]==1)
-                    irq<=0;
                 tr<=0;
                 dout<=sr;
             end
 
         end
         if(sr[7]==0)begin
+
             if(rdy==0)begin
                 irq<=1;
                 tr<=1;

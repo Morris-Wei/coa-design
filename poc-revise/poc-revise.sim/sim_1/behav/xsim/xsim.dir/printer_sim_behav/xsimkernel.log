@@ -1,7 +1,7 @@
-Running: xsim.dir/printer_sim_behav/xsimk.exe -simmode gui -wdb printer_sim_behav.wdb -simrunnum 0 -socket 59598
+Running: xsim.dir/printer_sim_behav/xsimk.exe -simmode gui -wdb printer_sim_behav.wdb -simrunnum 0 -socket 53828
 Design successfully loaded
-Design Loading Memory Usage: 9056 KB (Peak: 9056 KB)
-Design Loading CPU Usage: 77 ms
+Design Loading Memory Usage: 5192 KB (Peak: 5192 KB)
+Design Loading CPU Usage: 62 ms
 Simulation completed
-Simulation Memory Usage: 9612 KB (Peak: 9612 KB)
-Simulation CPU Usage: 77 ms
+Simulation Memory Usage: 5792 KB (Peak: 5792 KB)
+Simulation CPU Usage: 62 ms
