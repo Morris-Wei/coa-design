@@ -1,2 +1,2 @@
 # coa-design
-verilog for coa-design
+verilog coa-design
