@@ -76,9 +76,9 @@ module ALU(clk,BR_in,cs,accis0,acc,mpyhigh,x,temp);
         else if(cs[30]==1)//SAL
             temp<={temp[14:0],1'b0};
         else if(cs[28]==1)//And
-            temp<=temp && BR_in;
+            temp<=temp & BR_in;
         else if(cs[27]==1)//Or
-            temp<=temp || BR_in;
+            temp<=temp | BR_in;
         else if(cs[26]==1)//Not
             temp<=~temp;
             

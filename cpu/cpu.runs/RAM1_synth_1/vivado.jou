@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Mon Mar 23 19:40:29 2020
-# Process ID: 7016
+# Start of session at: Fri Apr  3 13:00:28 2020
+# Process ID: 26644
 # Current directory: E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1
 # Command line: vivado.exe -log RAM1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM1.tcl
 # Log file: E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1.vds

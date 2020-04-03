@@ -31,7 +31,7 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo e:/GIT/coa-design/cpu/cpu.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.xci
+read_ip -quiet E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.xci
 set_property used_in_implementation false [get_files -all e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -87,32 +87,32 @@ write_checkpoint -force -noxdef RAM1.dcp
 create_report "RAM1_synth_1_synth_report_utilization_0" "report_utilization -file RAM1_utilization_synth.rpt -pb RAM1_utilization_synth.pb"
 
 if { [catch {
-  file copy -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1.dcp e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.dcp
+  file copy -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1.dcp E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v
+  write_verilog -force -mode synth_stub E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl
+  write_vhdl -force -mode synth_stub E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
+  write_verilog -force -mode funcsim E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -122,32 +122,32 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1.dcp e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.dcp
+  file copy -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1.dcp E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_stub.v e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v
+  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_stub.v E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_stub.vhdl e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl
+  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_stub.vhdl E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_sim_netlist.v e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
+  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_sim_netlist.v E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_sim_netlist.vhdl e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.vhdl
+  file rename -force E:/GIT/coa-design/cpu/cpu.runs/RAM1_synth_1/RAM1_sim_netlist.vhdl E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -156,13 +156,13 @@ if { [catch {
 
 if {[file isdir E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1]} {
   catch { 
-    file copy -force e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1
+    file copy -force E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.v E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1
   }
 }
 
 if {[file isdir E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1]} {
   catch { 
-    file copy -force e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1
+    file copy -force E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_stub.vhdl E:/GIT/coa-design/cpu/cpu.ip_user_files/ip/RAM1
   }
 }
 file delete __synthesis_is_running__

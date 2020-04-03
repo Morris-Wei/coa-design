@@ -62,8 +62,8 @@ module MRSim();
     //ram
     parameter [31:0] ram_wr = 32'h00000800; 
     //contol unit
-    parameter [31:0] rst_car = 32'h00000001;
-    parameter [31:0] inc_car = 32'h08000004;
+    parameter [31:0] rst_car = 32'h00000004;
+    parameter [31:0] inc_car = 32'h00000001;
     parameter [31:0] con_car = 32'h00000002;
     //pc
     parameter [31:0] pc_rst = 32'h00008000;
@@ -90,7 +90,7 @@ module MRSim();
 );
 
 
-    always#20 clk=~clk;
+    always#5 clk=~clk;
     initial begin
         clk<=0;
     end

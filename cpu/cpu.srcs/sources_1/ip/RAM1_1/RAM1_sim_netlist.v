@@ -1,9 +1,9 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Mon Mar 23 19:42:01 2020
+// Date        : Fri Apr  3 13:02:05 2020
 // Host        : LAPTOP-0T8S0NBT running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim e:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim E:/GIT/coa-design/cpu/cpu.srcs/sources_1/ip/RAM1_1/RAM1_sim_netlist.v
 // Design      : RAM1
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -406,7 +406,7 @@ module RAM1_spram
         .Q(qspo_int[9]),
         .R(1'b0));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000003A80000000003A80000000000AE0152)) 
+    .INIT(256'h0000000000000000000000010000000003A80000000003A80000000000AE0002)) 
     ram_reg_0_255_0_0
        (.A(a),
         .D(d[0]),
@@ -414,7 +414,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h000000000000000000000000000000000D000000000015000000000001040200)) 
+    .INIT(256'h000000000000000000000002000000000D000000000015000000000001040004)) 
     ram_reg_0_255_10_10
        (.A(a),
         .D(d[10]),
@@ -422,7 +422,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000000000000000000000000000000040020)) 
+    .INIT(256'h0000000000000000000000000000000000000000000000000000000000040002)) 
     ram_reg_0_255_11_11
        (.A(a),
         .D(d[11]),
@@ -430,7 +430,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000000000000000000000000000000000080)) 
+    .INIT(256'h0000000000000000000000010000000000000000000000000000000000000000)) 
     ram_reg_0_255_12_12
        (.A(a),
         .D(d[12]),
@@ -454,7 +454,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000000000000000000000000000000000000)) 
+    .INIT(256'h0000000000000000000000000000000000000000000000000000000000000000)) 
     ram_reg_0_255_15_15
        (.A(a),
         .D(d[15]),
@@ -462,7 +462,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000002AC0000000002AC0000000000300092)) 
+    .INIT(256'h0000000000000000000000000000000002AC0000000002AC0000000000300000)) 
     ram_reg_0_255_1_1
        (.A(a),
         .D(d[1]),
@@ -470,7 +470,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h000000000000000000000000000000000452000000000C520000000000CB01E8)) 
+    .INIT(256'h000000000000000000000002000000000452000000000C520000000000CB0000)) 
     ram_reg_0_255_2_2
        (.A(a),
         .D(d[2]),
@@ -478,7 +478,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000000000000000000000000000000000000)) 
+    .INIT(256'h0000000000000000000000000000000000000000000000000000000000000000)) 
     ram_reg_0_255_3_3
        (.A(a),
         .D(d[3]),
@@ -494,7 +494,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000003FF000000000BFF0000000000FF01FF)) 
+    .INIT(256'h0000000000000000000000000000000003FF000000000BFF0000000000FF0003)) 
     ram_reg_0_255_5_5
        (.A(a),
         .D(d[5]),
@@ -510,7 +510,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000010000000003FF000000000BFF0000000000FF01FF)) 
+    .INIT(256'h0000000000000000000000000000000003FF000000000BFF0000000000FF0003)) 
     ram_reg_0_255_7_7
        (.A(a),
         .D(d[7]),
@@ -518,7 +518,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h000000000000000000000001000000000E6A00000000166A00000000010D02CA)) 
+    .INIT(256'h000000000000000000000001000000000E6A00000000166A00000000010D0006)) 
     ram_reg_0_255_8_8
        (.A(a),
         .D(d[8]),
@@ -526,7 +526,7 @@ module RAM1_spram
         .WCLK(clk),
         .WE(we));
   RAM256X1S #(
-    .INIT(256'h0000000000000000000000000000000008B50000000018B50000000001F20315)) 
+    .INIT(256'h0000000000000000000000000000000008B50000000018B50000000001F20007)) 
     ram_reg_0_255_9_9
        (.A(a),
         .D(d[9]),
