@@ -35,7 +35,7 @@ Load a0;
 Halt;
 ```
 
-![仿真一](E:\GIT\coa-design\Snipaste_2020-04-03_08-58-19.png)
+![仿真一](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_08-58-19.png)
 ### 细节
 
 ![](E:\GIT\coa-design\Snipaste_2020-04-03_21-19-10.png)
