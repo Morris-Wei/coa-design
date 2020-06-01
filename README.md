@@ -38,17 +38,17 @@ Halt;
 ![仿真一](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_08-58-19.png)
 ### 细节
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-19-10.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-19-10.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-20-35.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-20-35.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-23-45.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-23-45.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-25-11.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-25-11.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-26-34.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-26-34.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-27-57.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-27-57.png)
 >
 >计算0x1111*0x404
 
@@ -58,15 +58,15 @@ mpy a1;
 halt;
 ```
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_09-16-11.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_09-16-11.png)
 
 >一正一负相乘
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-04-38.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-04-38.png)
 
 >负数乘以负数
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_21-08-33.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_21-08-33.png)
 
 >0x1111求反
 
@@ -75,7 +75,7 @@ load a0;
 not a0;
 ```
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_09-28-26.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_09-28-26.png)
 
 >0x1111与0x0404逻辑相与，相或
 
@@ -85,13 +85,13 @@ and a1;
 or a2;
 ```
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_13-11-28.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_13-11-28.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_13-45-42.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_13-45-42.png)
 
 >0x0800逻辑左移与逻辑右移
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_13-57-14.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_13-57-14.png)
 
-![](E:\GIT\coa-design\Snipaste_2020-04-03_20-51-48.png)
+![](https://github.com/Morsen-wei/coa-design/blob/master/Snipaste_2020-04-03_20-51-48.png)
 
